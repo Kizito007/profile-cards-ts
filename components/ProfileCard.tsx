@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Card, Button, Col , Row, Container} from "react-bootstrap"
-import svg from "../src/assets/react.svg"
+// import svg from "../src/assets/react.svg"
 import { getProfiles } from '../src/Api'
 import { Profile } from '../src/models/Profile'
 import  { Link } from "react-router-dom"
