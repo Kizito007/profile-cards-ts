@@ -30,18 +30,6 @@ const ProfileCard = () => {
                 </Container> :
 
                 <>
-                {/* <Col>
-                    <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={svg} />
-                    <Card.Body>
-                        <Card.Title>Oputa Olivia</Card.Title>
-                        <Card.Text>
-                        Software Engineer in Missouri, United States.
-                        </Card.Text>
-                        <Button variant="primary">View Profile</Button>
-                    </Card.Body>
-                    </Card>
-                </Col> */}
                 {
                     profiles.map((profile, index) => (
                         <Col key={index}>
@@ -60,6 +48,21 @@ const ProfileCard = () => {
                         </Col>
                     ))
                 }
+                <Col>
+                    <Card style={{ width: '18rem' }}>
+                    {/* <Card.Img variant="top" src="https://drive.google.com/file/d/1TxzKsce8wKAQLkLs3fIVcfHBO4QY17UE/preview" /> */}
+                    <iframe src="https://drive.google.com/file/d/1TxzKsce8wKAQLkLs3fIVcfHBO4QY17UE/preview" allow="autoplay"></iframe>
+                    <Card.Body>
+                        <Card.Title>Oputa Olivia</Card.Title>
+                        <Card.Text>
+                        Software Engineer in Missouri, United States.
+                        </Card.Text>
+                        <Card.Text>
+                        Birthday: 12th September.
+                        </Card.Text>
+                    </Card.Body>
+                    </Card>
+                </Col>
                 </>
         }
 
